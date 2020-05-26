@@ -1,0 +1,13 @@
+/* componets/search/search.wxss */
+.user_search {
+  height: 118rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  background-color: #FFFF;
+}
+
+.user_search input {
+  background: rgba(238, 241, 247, 1);
+  height: 58rpx;
+  border-radius: 10rpx;
+}

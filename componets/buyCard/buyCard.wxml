@@ -1,0 +1,17 @@
+<!--pages/buyCard/buyCard.wxml-->
+<view class="buyCard">
+  <view class="card_list">
+  <navigator url="../../pages/cardInfo/cardInfo">
+    <view class="card_item">
+      <view class="card_item_l">
+        <image src="../../assets/image/index_vip_moren.png"></image>
+      </view>
+      <view class="card_item_r">
+        <view class="card_item_r_title">奇络通疗程卡</view>
+        <view class="card_item_r_time">有效期：2020/12/12 12:12:12</view>
+        <view class="card_item_r_price">￥1233</view>
+      </view>
+    </view>
+    </navigator>
+  </view>
+</view>

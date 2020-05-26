@@ -1,0 +1,21 @@
+/* pages/userList/userList.wxss */
+.userInfo_btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 88rpx;
+  /* padding: 30rpx; */
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  font-size: 30rpx;
+}
+.userInfo_btn view {
+  padding: 25rpx 0;
+}
+.userInfo_List {
+  padding: 30rpx;
+}
+.activeColor {
+  color: #1F88FF;
+  border-bottom: 3rpx solid #1F88FF;
+}

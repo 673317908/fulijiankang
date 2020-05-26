@@ -1,0 +1,36 @@
+/* pages/power_set/power_set.wxss */
+.power_list {
+  padding: 30rpx;
+}
+.power_item{
+  display: flex;
+  background-color: #EEF1F7;
+  margin-bottom: 30rpx;
+  height: 150rpx;
+  box-sizing: border-box;
+}
+.power_item_l image {
+  width: 150rpx;
+  height: 150rpx;
+}
+.power_item_r{
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx 30rpx;
+}
+.power_item_r text{
+  margin-bottom: 10rpx;
+}
+.power_item_r text:last-child{
+  margin-bottom: none;
+}
+
+.text_fw{
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #2D2D2D;
+}
+.text_color{
+  color: #6B6B6B;
+  font-size: 28rpx;
+}

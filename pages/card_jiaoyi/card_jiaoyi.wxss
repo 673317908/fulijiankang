@@ -1,0 +1,58 @@
+/* pages/card_jiaoyi/card_jiaoyi.wxss */
+.card_jiaoyi {
+  padding: 30rpx;
+}
+.card_record_item {
+  background-color: #eef1f7;
+  padding: 30rpx 0 20rpx 0;
+  margin-bottom: 15rpx;
+}
+.card_record_item_l {
+  padding: 10rpx 20rpx;
+  margin-right: 20rpx;
+}
+.card_record_item_l image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.card_record_item_r {
+  width: 100%;
+}
+.card_record_item_r view {
+  margin-bottom: 20rpx;
+}
+.recordName text{
+  float: right;
+  margin-right: 29rpx;
+}
+.card_record_item_top {
+  display: flex;
+}
+
+.card_record_item_bottom {
+  /* padding: 10rpx 25rpx; */
+  margin: 20rpx 25rpx 0;
+  font-size: 30rpx;
+  color: #CCCCCC;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.card_record_item_bottom view{
+  border: 1rpx solid #CCCCCC;
+  margin-left: 10rpx;
+  background-color: white;
+  padding: 12rpx 20rpx;
+  border-radius: 10rpx;
+}
+
+.text_ft{
+  font-size: 26rpx;
+  color: #333333;
+}
+.text_cl{
+  color: #FA8575;
+  font-size: 26rpx;
+  margin-left: 30rpx;
+}

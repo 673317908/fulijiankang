@@ -1,0 +1,6 @@
+<!--componets/search/search.wxml-->
+<view class="search">
+	<view class="user_search">
+		<input placeholder="请输入姓名或手机号码" placeholder-style="font-size:26rpx;"></input>
+	</view>
+</view>

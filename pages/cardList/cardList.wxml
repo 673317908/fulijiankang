@@ -1,0 +1,82 @@
+<!--pages/cardList/cardList.wxml-->
+<view class="cardList">
+	<view class="search">
+  <navigator url="../Search/Search">
+    <view class="user_search">
+			请输入卡项名称
+		</view>
+  </navigator>
+	</view>
+	<view class="cardData">
+		<view class="card_item">
+      <view class="card_item_l">
+        <image src="../../assets/mipmap-hdpi/user_cardbg1.jpg"></image>
+      </view>
+      <view class="card_item_r">
+        <view class="card_item_r_title">
+          <text class="card_item_r_name">奇洛通疗程卡</text>
+          <text class="card_item_r_time">有效期：60分钟</text>
+        </view>
+        <view class="card_item_r_info">
+          ￥999.00
+        </view>
+      </view>
+    </view>
+    <view class="card_item">
+      <view class="card_item_l">
+        <image src="../../assets/mipmap-hdpi/user_cardbg1.jpg"></image>
+      </view>
+      <view class="card_item_r">
+        <view class="card_item_r_title">
+          <text class="card_item_r_name">奇洛通疗程卡</text>
+          <text class="card_item_r_time">有效期：60分钟</text>
+        </view>
+        <view class="card_item_r_info">
+          ￥999.00
+        </view>
+      </view>
+    </view>
+    <view class="card_item">
+      <view class="card_item_l">
+        <image src="../../assets/mipmap-hdpi/user_cardbg1.jpg"></image>
+      </view>
+      <view class="card_item_r">
+        <view class="card_item_r_title">
+          <text class="card_item_r_name">奇洛通疗程卡</text>
+          <text class="card_item_r_time">有效期：60分钟</text>
+        </view>
+        <view class="card_item_r_info">
+          ￥999.00
+        </view>
+      </view>
+    </view>
+    <view class="card_item">
+      <view class="card_item_l">
+        <image src="../../assets/mipmap-hdpi/user_cardbg1.jpg"></image>
+      </view>
+      <view class="card_item_r">
+        <view class="card_item_r_title">
+          <text class="card_item_r_name">奇洛通疗程卡</text>
+          <text class="card_item_r_time">有效期：60分钟</text>
+        </view>
+        <view class="card_item_r_info">
+          ￥999.00
+        </view>
+      </view>
+    </view>
+    <view class="card_item">
+      <view class="card_item_l">
+        <image src="../../assets/mipmap-hdpi/user_cardbg1.jpg"></image>
+      </view>
+      <view class="card_item_r">
+        <view class="card_item_r_title">
+          <text class="card_item_r_name">奇洛通疗程卡</text>
+          <text class="card_item_r_time">有效期：60分钟</text>
+        </view>
+        <view class="card_item_r_info">
+          ￥999.00
+        </view>
+      </view>
+    </view>
+	</view>
+</view>

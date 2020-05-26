@@ -1,0 +1,31 @@
+<!--pages/userInfo/userInfo.wxml-->
+		<!-- 用户头像 -->
+		<view class="user_info">
+			<view class="user_info_list">
+				<view class="user_content">
+					<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2534506313,1688529724&fm=26&gp=0.jpg"></image>
+					<text class="userLevel">普通会员</text>
+					<text class="userName">张先生</text>
+				</view>
+			</view>
+		</view>
+		<!-- 基本信息 -->
+		<view class="user_data">
+			<view class="user_data_title">基本信息</view>
+			<view class="user_data_list">
+				<view class="name textFlex"><text class="textColor">真实姓名</text><text>张小婷</text></view>
+				<view class="phone textFlex"><text class="textColor">电话号码</text><text>13700009999</text></view>
+				<view class="gender textFlex"><text class="textColor">性别</text><text>男</text></view>
+				<view class="address textFlex"> <text class="textColor">地址</text><text>中国广东省广州市</text></view>
+			</view>
+		</view>
+		<!-- 会员卡信息 -->
+		<view class="user_card">
+			<view class="user_card_title">会员卡信息</view>
+			<view class="user_card_list">
+				<view class="name textFlex"><text class="textColor">用户余额</text><text>用户余额</text></view>
+				<view class="phone textFlex"><text class="textColor">可用积分</text><text>9999</text></view>
+				<view class="gender textFlex"><text class="textColor">实际消费金额</text><text>￥999.00</text></view>
+				<view class="address textFlex"> <text class="textColor">注册时间</text><text>2020/04/23 14:52:48</text></view>
+			</view>
+		</view>

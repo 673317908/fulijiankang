@@ -1,0 +1,33 @@
+<!--pages/cardInfo/cardInfo.wxml-->
+<view class="cardInfo">
+	<view class="card_data">
+		<view class="card_data_info">
+			<view class="card_box">
+			<image src="../../assets/mipmap-hdpi/user_cardbg1.jpg" mode="aspectFill"></image>
+				<view class="card_name">富丽半年卡</view>
+				<view class="card_time">2019.08.08 12:12:12 到期</view>
+				<view class="card_list">
+					<view class="card_type cardflex">
+						<text class="textTop">有限次卡</text>
+						<text class="textBottom">卡类型</text>
+					</view>
+					<view class="card_state cardflex">
+						<text class="textTop">已失效</text>
+						<text class="textBottom">状态</text>
+					</view>
+					<view class="card_price cardflex">
+						<text class="textTop">￥1233</text>
+						<text class="textBottom">实付价格</text>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="card_btn">
+			<view wx:for="{{btnList}}" wx:key="item.id" bindtap="active" data-index="{{index}}" class="{{index===activeIndex?'activeColor':''}}">{{item.btntext}}</view>
+		</view>
+	</view>
+	<!-- 权益 -->
+	<equity wx:if="{{activeId}}"/>
+	<!-- 赠送 -->
+	<cardSet wx:else/>
+</view>

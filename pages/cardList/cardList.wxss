@@ -1,0 +1,61 @@
+/* pages/cardList/cardList.wxss */
+page {
+  background-color: #EEF1F7;
+}
+.cardList {
+  padding: 30rpx;
+}
+.user_search {
+  height: 58rpx;
+  line-height: 58rpx;
+  padding:  0 22rpx;
+  font-size: 26rpx;
+  box-sizing: border-box;
+  background-color: #FFFF;
+  margin-bottom: 30rpx;
+  border-radius: 10rpx;
+  color: #9FA19F;
+}
+
+.user_search input {
+  background-color: #FFFFFF;
+  height: 58rpx;
+  border-radius: 10rpx;
+}
+
+.card_item {
+  width: 690rpx;
+  padding: 40rpx 40rpx 30rpx 50rpx;
+  background-color: #ffff;
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 30rpx;
+  border-radius: 20rpx;
+}
+.card_item .card_item_l image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.card_item_r {
+  margin-left: 30rpx;
+}
+.card_item_r_title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40rpx;
+}
+.card_item_r_name {
+  font-size: 30rpx;
+  color: #333333;
+  font-weight: 700;
+}
+.card_item_r_time {
+  font-size: 26rpx;
+  color: #CCCCCC;
+  font-weight: 400;
+}
+.card_item_r_info {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #333333;
+}

@@ -1,0 +1,106 @@
+/* pages/cardInfo/cardInfo.wxss */
+page {
+  background-color: #EEF1F7;
+}
+.card_data {
+  background-color: #FFFFFF;
+  padding: 27rpx 34rpx 11rpx 35rpx;
+}
+.card_data_info {
+  width: 681rpx;
+  height: 422rpx;
+  padding: 87rpx 118rpx 98rpx 102rpx;
+  box-sizing: border-box;
+  
+}
+.card_box {
+  position: relative;
+}
+.card_data_info image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 37%;
+  background-size:100% 100%;
+  z-index: -1;
+}
+.card_box {
+  z-index: 1;
+}
+.card_name {
+  margin-bottom: 27rpx;
+  font-size: 36rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.card_time {
+  color: #CCCCCC;
+  font-size: 25rpx;
+  font-weight: 400;
+  margin-bottom: 70rpx;
+}
+.card_list {
+  display: flex;
+  justify-content: space-around;
+}
+.textTop{
+  color: #FFFFFF;
+  font-size: 34rpx;
+  font-weight: 400;
+}
+.textBottom {
+  color: #CCCCCC;
+  font-size: 23rpx;
+  font-weight: 400;
+  margin-top: 22rpx;
+}
+.cardflex{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card_btn {
+  display: flex;
+  justify-content: space-around;
+  height: 88rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.card_btn  view{
+  padding-bottom: 66rpx;
+}
+.card_item {
+  display: flex;
+  width: 690rpx;
+  height: 150rpx;
+  margin-top: 30rpx;
+  background-color: #FFFFFF;
+}
+.card_item .card_item_l image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.card_item_r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 31rpx;
+}
+
+.card_text_t {
+  font-size: 28rpx;
+  color: #000000;
+  font-weight: 400;
+}
+.card_text_b {
+  font-size: 28rpx;
+  color: #6B6B6B;
+  font-weight: 400;
+}
+.activeColor {
+  color: #1F88FF;
+  border-bottom: 5rpx solid #1F88FF;
+}

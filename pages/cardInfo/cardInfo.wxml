@@ -1,0 +1,141 @@
+<!--pages/cardInfo/cardInfo.wxml-->
+<view class="cardInfo">
+	<view class="card_data_info">
+		<!--  -->
+		<!-- 卡信息 -->
+		<view class="card_info">
+			<image class='background' src="../../assets/kaxiangxiangqing_cardbg.png" mode="aspectFill"></image>
+			<view class="card_info_T">
+				<view class="card_info_TL">
+					<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2534506313,1688529724&fm=26&gp=0.jpg"></image>
+				</view>
+				<view class="card_info_TR">
+					<view class="address">天河店</view>
+					<view class="cardName">疗程卡</view>
+					<view class="cardTime">2019.08.08到期</view>
+				</view>
+			</view>
+			<view class="card_info_B">
+				<view class="cardType">
+					<text class="textT">有限次卡</text>
+					<text class="textB">卡类型</text>
+				</view>
+				<view class="cardState">
+					<text class="textT">上架</text>
+					<text class="textB">状态</text>
+				</view>
+				<view class="cardPrice">
+					<text class="textT">￥1233</text>
+					<text class="textB">价格</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<!-- 卡项权限 -->
+	<view class="card_power">
+		<view class="card_power_title">
+			<text class="card_power_title_l">卡项权限</text>
+			<text class="card_power_title_r">更多</text>
+		</view>
+		<view class="card_power_list">
+			<view class="card_power_item">
+				<view class="card_power_l">
+					<image src="../../assets/image/index_vip_moren.png"></image>
+				</view>
+				<view class="card_power_r">
+					<text class="text_fw">针灸（需要支付，不选卡）</text>
+					<text class="text_color">价值￥0.01</text>
+					<text class="text_color">2次</text>
+				</view>
+			</view>
+			<view class="card_power_item">
+				<view class="card_power_l">
+					<image src="../../assets/image/index_vip_moren.png"></image>
+				</view>
+				<view class="card_power_r">
+					<text class="text_fw">针灸（需要支付，不选卡）</text>
+					<text class="text_color">价值￥0.01</text>
+					<text class="text_color">2次</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<!-- 赠送权限 -->
+	<view class="card_set">
+		<view class="card_power_title">
+			<text class="card_power_title_l">赠送权限</text>
+			<text class="card_power_title_r">更多</text>
+		</view>
+		<view class="card_power_list">
+			<view class="card_power_item">
+				<view class="card_power_l">
+					<image src="../../assets/image/trialcard.png"></image>
+				</view>
+				<view class="card_set_r">
+					<text class="text_fw">我送你一张卡</text>
+					<text class="text_color">价值￥0.01</text>
+				</view>
+			</view>
+			<view class="card_power_item">
+				<view class="card_power_l">
+					<image src="../../assets/image/trialcard.png"></image>
+				</view>
+				<view class="card_set_r">
+					<text class="text_fw">我送你一张卡</text>
+					<text class="text_color">价值￥0.01</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<!-- 交易记录 -->
+	<view class="card_record">
+		<view class="card_power_title">
+			<text class="card_power_title_l">交易记录</text>
+			<text class="card_power_title_r">更多</text>
+		</view>
+		<view class="card_record_list">
+			<view class="card_record_item">
+				<view class="card_record_item_top">
+					<view class="card_record_item_l">
+						<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2534506313,1688529724&fm=26&gp=0.jpg"></image>
+					</view>
+					<view class="card_record_item_r">
+						<view class="recordName text_ft">张先生<text class="text_cl">使用中</text></view>
+						<view class="recordNumber ">
+							<text class="text_ft">13877766666</text>
+						</view>
+						<view class="recordTime text_ft">
+							有效期至：2001-04-21 17:54:22
+						</view>
+					</view>
+				</view>
+				<view class="card_record_item_bottom">
+					<view>使用失效</view>
+					<view>修改有效期</view>
+					<view>使用记录</view>
+				</view>
+			</view>
+			<view class="card_record_item">
+				<view class="card_record_item_top">
+					<view class="card_record_item_l">
+						<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2534506313,1688529724&fm=26&gp=0.jpg"></image>
+					</view>
+					<view class="card_record_item_r">
+						<view class="recordName text_ft">张先生<text class="text_cl">使用中</text></view>
+						<view class="recordNumber ">
+							<text class="text_ft">13877766666</text>
+						</view>
+						<view class="recordTime text_ft">
+							有效期至：2001-04-21 17:54:22
+						</view>
+					</view>
+				</view>
+				<view class="card_record_item_bottom">
+					<view>使用失效</view>
+					<view>修改有效期</view>
+					<view>使用记录</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

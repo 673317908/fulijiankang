@@ -1,0 +1,12 @@
+<!--pages/userList/userList.wxml-->
+<view class="userInfo">
+	<view class="userInfo_btn">
+		<view wx:for="{{btnList}}" bindtap="active" data-index="{{index}}" class="{{index===activeIndex?'activeColor':''}}">{{item.btntext}}</view>
+	</view>
+	<view class="userInfo_List">
+    <!-- 会员信息 -->
+    <Info wx:if="{{activeId}}"/>
+    <!-- 购买记录 -->
+    <Card wx:else/>
+  	</view>
+</view>

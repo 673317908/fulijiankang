@@ -1,0 +1,136 @@
+/* pages/user/user.wxss */
+page {
+  background-color: #EEF1F7;
+}
+
+.user_search {
+  padding: 0 30rpx;
+  height: 58rpx;
+  line-height: 58rpx;
+  border-radius: 10rpx;
+  background-color: #FFFFFF;
+}
+.user_search_go {
+  padding: 0 22rpx;
+  border-radius: 10rpx;
+  /* width: 690rpx; */
+  background-color:#EEF1F7;
+  color: #9FA19F;
+}
+.user_screen {
+  height: 88rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #FFFF;
+  z-index:6;
+}
+.user_screen .user_screen_level {
+  position: relative;
+}
+.user_screen .user_screen_level .user_level_children{
+  display: flex;
+  flex-direction: column;
+  width: 208rpx;
+  position: absolute;
+  top: 95rpx;
+  left: -40rpx;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  z-index: 66;
+}
+.user_screen .user_screen_level .user_level_children text {
+  height: 86rpx;
+  text-align: center;
+  line-height: 86rpx;
+  color: #000000;
+  border-bottom: 1rpx solid #EEF1F7;
+}
+.user_screen .user_screen_level .user_level_children text:last-child {
+  border-bottom:none;
+}
+.user_screen .user_screen_sex{
+  position: relative;
+}
+.user_screen .user_screen_sex .user_sex_children {
+  display: flex;
+  flex-direction: column;
+  width: 208rpx;
+  position: absolute;
+  top: 95rpx;
+  left: -67rpx;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  z-index: 66;
+}
+.user_screen .user_screen_sex .user_sex_children text{
+  height: 86rpx;
+  text-align: center;
+  line-height: 86rpx;
+  color: #000000;
+}
+.user_info {
+  margin: 30rpx;
+  width: 690rpx;
+  height: 180rpx;
+  border-radius: 20rpx;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding: 40rpx 30rpx;
+  box-sizing: border-box;
+}
+
+.user_info image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.user_name_list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+}
+
+.level {
+  /* width:87rpx; */
+  height: 32rpx;
+  background: rgba(238, 241, 247, 1);
+  font-size: 26rpx;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 25rpx;
+  color: #8598BE;
+}
+
+.name {
+  font-size: 30rpx;
+  font-weight: 500;
+}
+
+.level_bg {
+  height: 32rpx;
+  background-color: #FA8575;
+  font-size: 26rpx;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 25rpx;
+  color: #FFFFFF;
+}
+.active {
+  color: #1F88FF;
+}
+
+.mask{
+  width:100%;
+  height:100%;
+  position:absolute;
+  background-color:#242424;
+  z-index:1;
+  top:0;
+  left:0;
+  opacity:0.5;
+  margin-top: 150rpx;
+}

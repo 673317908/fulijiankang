@@ -1,0 +1,83 @@
+/* pages/userInfo/userInfo.wxss */
+page {
+  background-color: #EEF1F7;
+}
+.userInfo_btn {
+  display: flex;
+  justify-content: space-around;
+  height: 88rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+.userInfo_List {
+  padding: 30rpx;
+}
+.user_info {
+  width: 690rpx;
+  height: 292rpx;
+  background: rgb(41, 140, 525);
+  border-radius: 20rpx;
+}
+.user_info_list {
+  display: flex;
+  justify-content: center;
+}
+.user_content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #FFFFFF;
+}
+.user_info_list .user_content image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin: 30rpx auto;
+}
+.user_info_list .user_content .userLevel{
+  font-size: 26rpx;
+  font-weight: 500;
+}
+.user_info_list .user_content .userName{
+  margin-top: 18rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+/* 基本信息 */
+.user_data {
+  margin-top: 20rpx;
+  padding: 40rpx 30rpx 39rpx 44rpx;
+  background-color: #FFFFFF;
+  width: 690rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+}
+.user_data .user_data_title {
+  font-size: 30rpx;
+  font-weight: 700;
+  margin-bottom: 14rpx;
+}
+/* 会员爱卡 */
+.user_card {
+  margin-top: 20rpx;
+  padding: 40rpx 30rpx 39rpx 44rpx;
+  background-color: #FFFFFF;
+  width: 690rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+}
+.user_card .user_card_title {
+  font-size: 30rpx;
+  font-weight: 700;
+  margin-bottom: 14rpx;
+}
+.textFlex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36rpx;
+  font-size: 30rpx;
+}
+.textColor {
+  color: #666666;
+}

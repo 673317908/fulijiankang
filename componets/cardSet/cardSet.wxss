@@ -1,0 +1,39 @@
+/* componets/cardSet/cardSet.wxml.wxss */
+.card_time {
+  color: #CCCCCC;
+  font-size: 25rpx;
+  font-weight: 400;
+  margin-bottom: 70rpx;
+}
+.card_list {
+  display: flex;
+  justify-content: space-around;
+}
+.card_item {
+  display: flex;
+  width: 690rpx;
+  height: 150rpx;
+  margin-top: 30rpx;
+  background-color: #FFFFFF;
+}
+.card_item .card_item_l image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.card_item_r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 31rpx;
+}
+
+.card_text_t {
+  font-size: 28rpx;
+  color: #000000;
+  font-weight: 400;
+}
+.card_text_b {
+  font-size: 28rpx;
+  color: #6B6B6B;
+  font-weight: 400;
+}

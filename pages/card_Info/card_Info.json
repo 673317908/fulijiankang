@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "equity":"../../componets/cardEquity/cardEqioty",
+    "cardSet":"../../componets/cardSet/cardSet"
+  },
+  "navigationBarTitleText":"详情"
+}

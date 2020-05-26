@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Info":"../../componets/userInfo/userInfo",
+  "Card":"../../componets/buyCard/buyCard"
+  },
+  "navigationBarTitleText":"用户详情"
+}
